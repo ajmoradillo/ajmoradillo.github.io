@@ -10,3 +10,8 @@ var typed3 = new Typed('.typewrite', {
 var modal = document.getElementById('myModal');
 var img = document.getElementById('myImg');
 
+
+ const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+  speed: 500
+
+ });
